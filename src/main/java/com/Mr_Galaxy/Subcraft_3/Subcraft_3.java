@@ -23,7 +23,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
     @Mod(
         modid = reference.MOD_ID,
         name = reference.MOD_NAME,
-        version = version.MOD_BUILD_NUMBER,
+        version = version.MOD_BUILD,
         dependencies = reference.DEPENDENCIES
         )
     
