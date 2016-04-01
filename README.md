@@ -1,7 +1,7 @@
-Subcraft-2
+Subcraft-3
 ==========
 
-It's Subcraft but better, Subcraft 2 is a Minecraft tech mod based on and arrowed Stargate (SG1, SGA, SGU), this mod is openSource and is licensed under the GNU Lesser GPL v3 licence. 
+It's Subcraft but better, Subcraft 3 is a Minecraft tech mod based on and arrowed Stargate (SG1, SGA, SGU), this mod is openSource and is licensed under the GNU Lesser GPL v3 licence. 
 There is so much more to come the best in one word Dimensions, Also power and other mod integration.
 
 ###Subcraft is OpenSource
