@@ -1,0 +1,20 @@
+[
+{
+  "modid": "subcraft_2",
+  "name": "Subcraft 2",
+  "description": "Subcraft 2 is in Pre-release, !!- Subcraft2 may not work with other mods yet, Sorry :( -!!",
+  "version": "DEV-release",
+  "url": "https://github.com/MrGalaxy/Subcraft-2",
+  "updateUrl": "https://github.com/MrGalaxy/Subcraft-2",
+  "authorList": [
+    "Mr_Galaxy"
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
