@@ -1,5 +1,7 @@
 package com.Mr_Galaxy.Subcraft_3;
 
+import com.Mr_Galaxy.Subcraft_3.init.mod_blocks;
+import com.Mr_Galaxy.Subcraft_3.init.mod_items;
 import com.Mr_Galaxy.Subcraft_3.reference.reference;
 import com.Mr_Galaxy.Subcraft_3.reference.version;
 
@@ -9,6 +11,7 @@ import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
  * Subcraft 3
@@ -27,21 +30,26 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
         dependencies = reference.DEPENDENCIES
         )
     
-    //@NetworkMod(
-    //    clientSideRequired = true,
-    //    serverSideRequired = false,
-    //    channels = {Reference.CHANNEL_NAME},
-    //    packetHandler = Packet_Handler.class
-    //    )
     
 public class Subcraft_3
 {
 	@Instance(reference.MOD_ID)
-        public static Subcraft_3 instance;
+    	public static Subcraft_3 instance;
+		
+	
+	//@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
+    	//public static IProxy proxy;
+		
 	
 	@EventHandler
         public void preInit(FMLPreInitializationEvent event)
         {
+			
+			//Configuration_Handler.init(event.getSuggestedConfigurationFile());
+			
+			mod_items.init();
+			
+			mod_blocks.init();
 			
 			
 			
@@ -51,7 +59,12 @@ public class Subcraft_3
         public void Init(FMLInitializationEvent event)
         {
 			
-			
+        	//recipes.init();
+        	
+        	//Register our fuels
+        	//GameRegistry.registerFuelHandler(new handler_fuel());
+        	
+        	
 			
         }
 	
