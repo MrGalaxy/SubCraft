@@ -30,41 +30,32 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
         dependencies = reference.DEPENDENCIES
         )
     
-    
 public class Subcraft_3
 {
 	@Instance(reference.MOD_ID)
     	public static Subcraft_3 instance;
 		
-	
 	//@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
     	//public static IProxy proxy;
 		
-	
 	@EventHandler
         public void preInit(FMLPreInitializationEvent event)
-        {
-			
-			//Configuration_Handler.init(event.getSuggestedConfigurationFile());
-			
+        {			
 			mod_items.init();
 			
 			mod_blocks.init();
 			
-			
+			//Configuration_Handler.init(event.getSuggestedConfigurationFile());
 			
         }
 	
 	@EventHandler
         public void Init(FMLInitializationEvent event)
         {
-			
         	//recipes.init();
         	
-        	//Register our fuels
+        	//Register fuels
         	//GameRegistry.registerFuelHandler(new handler_fuel());
-        	
-        	
 			
         }
 	
@@ -72,9 +63,6 @@ public class Subcraft_3
 		public void postInit (FMLPostInitializationEvent event)
 		{
 			
-			
-			
 		}
-	
 	
 }

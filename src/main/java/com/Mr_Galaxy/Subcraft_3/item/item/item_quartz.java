@@ -1,4 +1,6 @@
-package com.Mr_Galaxy.Subcraft_3.item;
+package com.Mr_Galaxy.Subcraft_3.item.item;
+
+import com.Mr_Galaxy.Subcraft_3.item.general_item;
 
 /**
  * 
@@ -9,7 +11,7 @@ package com.Mr_Galaxy.Subcraft_3.item;
 
 public class item_quartz extends general_item
 {
-	public item_base(int id) 
+	public item_quartz(int id) 
 	{
 		super(id);
 	}
