@@ -14,15 +14,13 @@ package com.Mr_Galaxy.Subcraft_3.reference;
  */
 
 public class version
-{
-	public static final String Minecraft_VERSION = "1.8.9";
-	
+{	
 	public static final int MAJOR_VERSION = 1;
 	public static final int MINOR_VERSION = 0;
 	public static final int REVISION_VERSION = 0;
 
 	
-	public static final String MOD_BUILD = "[ (" + Minecraft_VERSION 
+	public static final String MOD_BUILD = "[ (" + reference.MINECARFT_VERSION
 										   + ") - (" + MAJOR_VERSION 
 										   + "." + MINOR_VERSION
 										   + "."  + REVISION_VERSION 

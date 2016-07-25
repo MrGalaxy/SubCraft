@@ -22,7 +22,7 @@ public class reference
     public static final String CLIENT_PROXY_CLASS = "com.Mr_Galaxy.Subcraft_3.proxy.ClientProxy";
     
     public static final String DEPENDENCIES = "required-after:Forge@[11.15.1.1777,)";
-    public static final String MINECARFT_VERSION = "[ 1.8.9 ]";
+    public static final String MINECARFT_VERSION = "1.8.9";
 
     public static final String CHANNEL_NAME = MOD_ID;
     

@@ -16,11 +16,13 @@ public class general_item extends Item
 		super();
 		//this.setCreativeTab(Subcraft_2.Subcraft_2_tab);
 	}
+	
 	/*
     @SideOnly(Side.CLIENT)
     public void registerIcons(IconRegister par1IconRegister)
     {
-        this.itemIcon = par1IconRegister.registerIcon(Reference.MOD_ID + ":" + (this.getUnlocalizedName().substring(5)));
+        this.itemIcon = par1IconRegister.registerIcon(reference.MOD_ID + ":" + (this.getUnlocalizedName().substring(5)));
     }
     */
+	
 }

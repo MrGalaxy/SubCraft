@@ -1,5 +1,7 @@
 package com.Mr_Galaxy.Subcraft_3.item;
 
+import net.minecraft.creativetab.CreativeTabs;
+
 /**
  * 
  * @author Mr_Galaxy
@@ -9,8 +11,11 @@ package com.Mr_Galaxy.Subcraft_3.item;
 
 public class item_base extends general_item
 {
-	public item_base(int id) 
+	public item_base(String unlocalizedName) 
 	{
-		super(id);
+		super();
+		
+	    this.setUnlocalizedName(unlocalizedName);
+	    this.setCreativeTab(CreativeTabs.tabMaterials);
 	}
 }
