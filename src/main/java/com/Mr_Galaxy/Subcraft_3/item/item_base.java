@@ -11,11 +11,18 @@ import net.minecraft.creativetab.CreativeTabs;
 
 public class item_base extends general_item
 {
-	public item_base(String unlocalizedName) 
+
+	public item_base(int id)
 	{
-		super();
-		
-	    this.setUnlocalizedName(unlocalizedName);
-	    this.setCreativeTab(CreativeTabs.tabMaterials);
+		super(id);
+		// TODO Auto-generated constructor stub
 	}
+	
+	//public item_base(String unlocalizedName) 
+	//{
+		//super();
+		
+	    //this.setUnlocalizedName(unlocalizedName);
+	    //this.setCreativeTab(CreativeTabs.tabMaterials);
+	//}
 }
