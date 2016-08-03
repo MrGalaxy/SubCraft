@@ -20,16 +20,16 @@ public class mod_items
 	public static void init()
 	{
 		/** Item *//** Base */
-		//item_base= new item_base(id_item.ID_ITEM_BASE_DEFAULT).setUnlocalizedName("item_base");
-		//LanguageRegistry.addName(item_base, "mod base item");
+			//item_base= new item_base(id_item.ID_ITEM_BASE_DEFAULT).setUnlocalizedName("item_base");
+			//LanguageRegistry.addName(item_base, "mod base item");
 		
 		/** Item *//** quartz */
-		//item_= new item_(id_item.ID_ITEM__DEFAULT).setUnlocalizedName("item_");
-		//LanguageRegistry.addName(item_, "");
+			//item_= new item_(id_item.ID_ITEM__DEFAULT).setUnlocalizedName("item_");
+			//LanguageRegistry.addName(item_, "");
 		
 		/** Item *//**  */
-		//item_= new item_(id_item.ID_ITEM__DEFAULT).setUnlocalizedName("item_");
-		//LanguageRegistry.addName(item_, "");
+			//item_= new item_(id_item.ID_ITEM__DEFAULT).setUnlocalizedName("item_");
+			//LanguageRegistry.addName(item_, "");
 		
 		
 		

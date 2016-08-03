@@ -10,8 +10,8 @@ package com.Mr_Galaxy.Subcraft_3.lib;
 public class id_gui
 {
     
-	public static int ID_GUI_MACHINE_DEFAULT = 0;
-	public static int ID_GUI_FURNACE_DEFAULT = 1;
+		public static int ID_GUI_MACHINE_DEFAULT = 0;
+		public static int ID_GUI_FURNACE_DEFAULT = 1;
     
 
 }
