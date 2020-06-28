@@ -10,8 +10,6 @@ import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
  * Subcraft 3
@@ -19,6 +17,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
  * main Mod Class
  * 
  * @author Mr_Galaxy
+ * 
  * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
  * 
  */
@@ -30,13 +29,13 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
         dependencies = reference.DEPENDENCIES
         )
     
-public class Subcraft_3
+public class Subcraft_3<FMLPreInitializationEvent>
 {
 	@Instance(reference.MOD_ID)
     	public static Subcraft_3 instance;
 		
 	//@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
-    	//public static IProxy proxy;
+    	//public static IProxy Proxy;
 		
 	@EventHandler
         public void preInit(FMLPreInitializationEvent event)
